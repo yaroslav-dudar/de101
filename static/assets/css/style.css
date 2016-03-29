@@ -1,0 +1,77 @@
+/* bars style */
+.bar {
+    fill: #59ABE3;
+    stroke: #000;
+    stroke-width: 2px;
+}
+
+/* axis styles */
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+
+.country {
+    stroke: #000;
+    stroke-width: 1.5px;
+}
+
+.country_funs0 {
+    fill: #9ecae1;
+}
+.country_funs1 {
+    fill: #4292c6;
+}
+.country_funs2 {
+    fill: #2171b5;
+}
+.country_funs3 {
+    fill: #08519c;
+}
+.country_funs4 {
+    fill: #08306b;
+}
+.country_funs_none {
+    fill: none;
+}
+
+/* Gdp heatmap styles */
+
+.country_gdp0 {
+    fill: #fee0d2;
+}
+
+.country_gdp1 {
+    fill: #fcbba1;
+}
+
+.country_gdp2 {
+    fill: #fc9272;
+}
+
+.country_gdp3 {
+    fill: #fb6a4a;
+}
+
+.country_gdp4 {
+    fill: #ef3b2c;
+}
+
+.country_gdp5 {
+    fill: #cb181d;
+}
+
+.country_gdp6 {
+    fill: #a50f15;
+}
+
+.country_gdp7 {
+    fill: #67000d;
+}
+
+.country_gdp_none {
+    fill: none;
+}

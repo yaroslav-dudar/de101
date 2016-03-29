@@ -1,0 +1,4 @@
+flask==0.10.1
+facebook-sdk==0.4.0
+pymongo==3.2.1
+pycountry==1.20

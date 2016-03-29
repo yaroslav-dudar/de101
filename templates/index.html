@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>D3 Dashboard</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="IE=edge">
+
+        <link href="static/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="static/assets/css/style.css" rel="stylesheet">
+
+        <script src="static/bower_components/angular/angular.min.js"></script>
+        <script src="static/bower_components/d3/d3.min.js"></script>
+        <script src="static/bower_components/topojson/topojson.js"></script>
+
+        <script src="static/assets/js/d3-chart-module.js"></script>
+        <script src="static/assets/js/app.js"></script>
+    </head>
+    <body>
+        <div class="container" ng-app='app' ng-controller="Dashboard">
+            <current-time></current-time>
+
+            <d3bar-directive metric="likes"></d3bar-directive>
+            <d3bar-directive metric="shares"></d3bar-directive>
+            <d3bar-directive metric="comments"></d3bar-directive>
+
+            <d3heatmap-directive></d3heatmap-directive>
+            <d3gdp-directive></d3gdp-directive>
+        </div>
+    </body>
+</html>
